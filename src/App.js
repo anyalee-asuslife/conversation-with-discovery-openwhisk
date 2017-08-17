@@ -58,6 +58,7 @@ class App extends Component {
       const outputMessage = responseJson.output.text.filter(text => text).join('\n');
       const outputIntent = responseJson.intents[0] ? responseJson.intents[0]['intent'] : '';
       const outputDate = responseJson.date.toLocaleTimeString();
+      const outputContext = responseJson.context;
       this.setState({
         context: outputContext
       });
