@@ -64,7 +64,7 @@ class App extends Component {
       });
       const msgObj = {
         position: 'left',
-        label: '@TintinWatson',
+        label: '@DaifuWatson',
         message: outputMessage,
         date: outputDate,
         hasTail: true
